@@ -12,7 +12,7 @@ const LoginForm = () => {
       [e.target.name]: e.target.value,
     });
   };
-
+// making changes
   const handleSubmit = (e) => {
     e.preventDefault();
     alert(`Login form submitted!\nEmail: ${loginData.email}\nPassword: ${loginData.password}`);
