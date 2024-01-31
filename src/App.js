@@ -9,7 +9,7 @@ const LoginForm = () => {
   const handleChange = (e) => {
     setLoginData({
       ...loginData,
-      [e.target.name]: e.target.value,
+      [e.target.name]: e.target.values,
     });
   };
 
